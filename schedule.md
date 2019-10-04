@@ -1,7 +1,7 @@
 # Schedule
 
 |Start|End|Activity|Location|
-|:---:|:---:|:------:|:------:|
+|:---:|:---:|:------|:------|
 |08:30|09:00|Sign-in|SB1 Lobby|
 |09:00|09:30|Introduction and computer setup|SB1 2100|
 |09:30|10:30|Linear Regression - definition, fitted model, goodness of model fit, interpretation of estimated regression coefficients, prediction, R application|SB1 2100|
