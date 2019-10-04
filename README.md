@@ -71,6 +71,26 @@ git clone git@github.com:ocrug/advanced_regression.git
 
 Event Repo: [https://github.com/ocrug/advanced_regression](https://github.com/ocrug/advanced_regression)
 
+If you would like to make thing easier during the course you can install a package
+that has all the code and data already loaded. It also has all the data
+used in the textbook, both examples and exercises.
+
+Repo: [https://github.com/ocrug/AdvancedRegression](https://github.com/ocrug/AdvancedRegression)
+
+You can install the package with:
+
+```
+install.packages('devtools', dependencies = TRUE)
+devtools::install_github("https://github.com/ocrug/AdvancedRegression")
+library(AdvancedRegression)
+```
+
+There is some documentation. Check it out by looking at the docs for a function such as:
+
+```
+? AICC
+```
+
 ## Slack Channel
 
 A slack channel has been set up for the hackathon. This will be used for general announcements but it is also a great source for you to ask questions to other participants.
@@ -84,6 +104,14 @@ Once you have an account, sign in (you can do it on a web browser or download an
 Slack channel: [https://ocrug.slack.com](https://ocrug.slack.com)
 
 The channel for the course is **regression-2019**
+
+## Check your setup
+
+Since this event depends on you have an R setup that is functional with the
+correct packages and version of R, we highly recommend that you run the 
+[check_setup.r](https://github.com/ocrug/advanced_regression/blob/master/check_setup.r)
+before the event. If you have issues, please reach out to use in the slack channel 
+(see above) to get help.
 
 ## Twitter
 
@@ -107,30 +135,6 @@ Please follow us on twitter, oc_rug, and also tweet about the event with the has
     * This book digs into the details of R.
     * A great resource for more advanced users wanting to learning more about R under the hood.
     * There is also a [1st Edition](http://adv-r.had.co.nz/) of the book.
-
-* [ggplot2 Reference Docs](https://ggplot2.tidyverse.org/reference/)
-    * Useful when you need to look up more info on specific geoms, stats, scales, etc.
-    * Check out the examples in the details pages for each function.
-
-* [The R Graph Gallary](https://www.r-graph-gallery.com/)
-    * Gallary of various types of chart and the code needed to create them. 
-    
-* [R Graphics Cookbook](https://r-graphics.org/)
-    * A practical guide that provides more than 150 recipes
-
-* [Mistakes, we’ve drawn a few: Learning from our errors in data visualisation](https://medium.economist.com/mistakes-weve-drawn-a-few-8cdd8a42d368)
-    * From the Economist about mistakes they've made with *published* data visualizations, and how they'd fix the problems.
-    * Note: even professionals make mistakes too!
-
-* [The caret R Package Site](http://topepo.github.io/caret/index.html)
-    * Good overview of caret with code examples
-    * In particular, check out the [table of available models](http://topepo.github.io/caret/available-models.html)
-
-* [DALEX R Package -- Descriptive mAchine Learning EXplanations](https://github.com/pbiecek/DALEX)
-    * Provides a set of tools that help you to understand how complex models are working
-    * Helps you visualize what's going on
-    * Check out the [cheatsheet](https://github.com/pbiecek/DALEX/blob/master/misc/DALEX_local.png)
-
 
 ## Food
 
