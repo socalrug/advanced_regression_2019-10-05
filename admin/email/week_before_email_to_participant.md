@@ -16,12 +16,6 @@ To make the most of your time, there are a number of things that you should do t
 git clone https://github.com/ocrug/advanced_regression.git
 ```
 1. Run the [check_setup.r](https://github.com/ocrug/advanced_regression/blob/master/check_setup.r) script. It will make sure that you have the basic libraries installed and updated software. **This can take quite a while to run**.
-1. After running the [check_setup.r](https://github.com/ocrug/advanced_regression/blob/master/check_setup.r) script, you should install the [AdvancedRegression](https://github.com/ocrug/AdvancedRegression) package from GitHub. Do this in R with the following command:
-```
-install.packages('devtools', dependencies = TRUE)
-devtools::install_github("https://github.com/ocrug/AdvancedRegression")
-library(AdvancedRegression)
-```
 
 ## Other Details
 
