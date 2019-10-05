@@ -66,7 +66,7 @@ OCRUG GitHub Repo: [https://github.com/ocrug/](https://github.com/ocrug/)
 command: 
 
 ```
-git clone git@github.com:ocrug/advanced_regression.git
+git clone https://github.com/ocrug/advanced_regression.git
 ```
 
 Event Repo: [https://github.com/ocrug/advanced_regression](https://github.com/ocrug/advanced_regression)
