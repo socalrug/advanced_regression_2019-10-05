@@ -1,5 +1,5 @@
 dosages.data<- read.csv(file="./LongitudinalLogisticExampleData.csv", 
-header=TRUE, sep=",")
+                            header=TRUE, sep=",")
 
 #creating longform dataset and time variable
 library(reshape2)
@@ -11,7 +11,7 @@ library(lme4)
 summary(fitted.model<- glmer(effects~dosage+gender+week+(1+(week|patid)), data=longform,family=binomial(link='logit')))
 
 #using the fitted model for prediction
-print(predict(fitted.model, data.frame(patid=29, dosage='B', gender='F',week=7),re.form=NA, type='response'))
+print(predict(fitted.model, data.frame(patid=29, dosage='A', gender='F',week=7),re.form=NA, type='response'))
 
 
 
